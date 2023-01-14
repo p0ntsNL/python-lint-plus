@@ -61,6 +61,10 @@ pip install -U -q pip
 echo "Commencing tool run"
 echo ""
 
+pip install -q requests
+pip install -q pymongo
+pip install -q ccxt
+
 # Run the autoformatters first.
 if [ "$3" = true ] ; then
 

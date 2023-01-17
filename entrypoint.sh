@@ -64,6 +64,8 @@ echo ""
 pip install -q requests
 pip install -q pymongo
 pip install -q ccxt
+pip install -q pyyaml
+pip install -q schema
 
 # Run the autoformatters first.
 if [ "$3" = true ] ; then

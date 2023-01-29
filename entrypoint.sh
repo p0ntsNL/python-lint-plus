@@ -66,6 +66,7 @@ pip install -q pymongo
 pip install -q ccxt
 pip install -q pyyaml
 pip install -q schema
+pip install -q log4mongo
 
 # Run the autoformatters first.
 if [ "$3" = true ] ; then
